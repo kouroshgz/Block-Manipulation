@@ -1,0 +1,25 @@
+.block{
+	width: 	150px;
+	height: 150px;
+	background: linear-gradient(to top, #333 0%, #666 30%, #333 100%);
+	box-shadow: inset 2px 2px 2px 5px 2px #333;
+	border-radius: 	10px;
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+}
+
+h3{
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+}
+
+.vertical{
+	width: 75px;
+	height: 75px;
+}
+.vertical input{
+	transform: rotate(90deg);
+	width: 75px;
+}
