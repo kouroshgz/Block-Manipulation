@@ -18,8 +18,63 @@ h3{
 .vertical{
 	width: 75px;
 	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
 }
 .vertical input{
 	transform: rotate(90deg);
 	width: 75px;
 }
+
+.vertical label{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 75px;
+}
+
+.horizontal {
+	width: 100px;
+	margin: 0 auto;
+	
+}
+.horizontal input{
+	width: 100px;
+}
+.horizontal label{
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.center{
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#submit{
+	margin-top: 10px;
+}
+
+.hex-C{
+	width: 100px;
+	margin: 30px auto 0;
+}
+
+#hex{
+	width: 80px;
+}
+
+.rgba{
+	width: 100px;
+	margin: 0 auto;
+}
+.rgba input{
+	width: 80px;
+}
+
